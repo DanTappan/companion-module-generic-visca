@@ -13,9 +13,9 @@ export function getConfigDefinitions(CHOICES) {
 		{
 			type: 'textinput',
 			id: 'host',
-			label: 'Target IP',
+			label: 'Target IP or hostname',
 			width: 3,
-			regex: Regex.IP,
+			regex: Regex.HOSTNAME,
 		},
 		{
 			type: 'textinput',
@@ -40,14 +40,14 @@ export function getConfigDefinitions(CHOICES) {
 			label: 'Camera Information',
 			value: 'The Camera Model and Frame Rate are used to determine specific exposure settings.',
 		},
-		{
-			type: 'dropdown',
-			id: 'model',
-			label: 'Select Your Camera Model',
-			width: 4,
-			default: MODELS[0].id,
-			choices: MODELS,
-		},
+//		{
+//			type: 'dropdown',
+//			id: 'model',
+//			label: 'Select Your Camera Model',
+//			width: 4,
+//			default: MODELS[0].id,
+//			choices: MODELS,
+//		},
 		{
 			type: 'dropdown',
 			id: 'frameRate',
