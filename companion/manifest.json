@@ -1,24 +1,16 @@
 {
-	"id": "sony-visca",
-	"name": "sony-visca",
+	"id": "generic-visca",
+	"name": "generic-visca",
 	"shortname": "VISCA",
 	"description": "Module to control PTZ cameras with Sony VISCA protocol over IP",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-sony-visca.git",
-	"bugs": "https://github.com/bitfocus/companion-module-sony-visca/issues",
+	"repository": "git+https://github.com/DanTappan/companion-module-generic-visca.git",
+	"bugs": "https://github.com/DanTappan/companion-module-generic-visca/issues",
 	"maintainers": [
 		{
-			"name": "Greg Oseid",
-			"email": "greg@oseid.net"
-		},
-		{
-			"name": "Yuri Vidal",
-			"email": "yu.ri.vidal@gmail.com"
-		},
-		{
-			"name": "Per Røine",
-			"email": "per.roine@gmail.com"
+			"name": "Dan Tappan",
+			"email": "dan@dantappan.net"
 		}
 	],
 	"legacyIds": [],
@@ -28,7 +20,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../src/main.js"
 	},
-	"manufacturer": "Sony",
+	"manufacturer": "Generic",
 	"products": ["VISCA"],
 	"keywords": ["Protocol", "Camera", "VISCA", "PTZ"]
 }
