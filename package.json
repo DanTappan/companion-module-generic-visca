@@ -1,6 +1,6 @@
 {
-	"name": "sony-visca",
-	"version": "2.7.5",
+	"name": "generic-visca",
+	"version": "1.0.0",
 	"main": "src/main.js",
 	"type": "module",
 	"scripts": {
@@ -13,7 +13,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-sony-visca.git"
+		"url": "git+https://github.com/DanTappan/companion-module-generic-visca.git"
 	},
 	"engines": {
 		"npm": "please-use-yarn",
